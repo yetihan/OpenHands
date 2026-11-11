@@ -283,6 +283,7 @@ describe("recommended automations", () => {
       "incident-retrospective-drafter",
       "github-stale-ci-pr-closer",
       "github-comment-cleanup",
+      "cve-remediation-factory",
     ]);
   });
 
@@ -309,7 +310,7 @@ describe("recommended automations", () => {
     expect(moreHeading).toHaveTextContent(
       I18nKey.RECOMMENDED_AUTOMATIONS$MORE_TITLE,
     );
-    expect(within(moreHeading).getByText("20")).toBeInTheDocument();
+    expect(within(moreHeading).getByText("21")).toBeInTheDocument();
 
     const moreSection = screen.getByTestId(
       "recommended-automations-beta-section",
