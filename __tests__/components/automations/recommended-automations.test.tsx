@@ -270,6 +270,7 @@ describe("recommended automations", () => {
       "gitlab-issue-to-mr",
       "linear-issue-to-gitlab-mr",
       "linear-issue-to-bitbucket-pr",
+      "cve-remediation-factory",
       "jira-issue-to-pr",
       "qa-changes",
       "jira-data-center-issue-to-bitbucket-data-center-pr",
@@ -283,7 +284,6 @@ describe("recommended automations", () => {
       "incident-retrospective-drafter",
       "github-stale-ci-pr-closer",
       "github-comment-cleanup",
-      "cve-remediation-factory",
     ]);
   });
 
